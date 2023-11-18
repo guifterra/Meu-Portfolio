@@ -10,8 +10,8 @@ body{
 
 .construction{
     margin: 0 auto;
-    width: 100Vw;
-    height: calc(100Vw / 2);
+    width: 95Vw;
+    height: calc(95Vw / 2);
     background-image: url("../imgs/UnderConstruction.png");
     background-repeat: no-repeat;
     background-position: center;
