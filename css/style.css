@@ -1,5 +1,38 @@
-.fundo{
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(10, 10, 10);
+}
 
-    background-color: black;
+.show{
+    border: 1px solid red;
+}
 
+.construction{
+    margin: 0 auto;
+    width: 100Vw;
+    height: calc(100Vw / 2);
+    background-image: url("../imgs/UnderConstruction.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.secao-1{
+
+    height: 90Vh;
+}
+
+.secao-2{
+
+    height: 90Vh;
+}
+
+.bg-img-1{
+    background-image: url("../imgs/Teste.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.text-green{
+    color: rgb(23, 184, 23);
 }
