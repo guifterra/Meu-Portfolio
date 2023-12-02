@@ -122,6 +122,80 @@ body{
     color: rgb(68, 209, 68);
 }
 
+/* Config sect Project */
+.container-sect-project{
+    font-family: Helvetica;
+    padding: 3rem;
+}
+
+.container-project h2{
+    color: rgb(68, 209, 68);
+}
+
+.container-project p{
+    color: #DDD;
+    font-size: 1rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+/* Config sect Contacts */
+.container-sect-contact{
+    background-color: #111;
+    font-family: Helvetica;
+    padding: 3rem;
+}
+
+.container-contact-1 h2{
+    color: rgb(68, 209, 68);
+    text-align: center;
+}
+
+.container-contact-1 p{
+    color: #DDD;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.btn-contact{
+    color: rgb(83, 83, 231);
+    text-decoration: none;
+}
+
+.container-contact-2{
+    display: flex;
+}
+
+.contact-item{
+    align-items: center;
+    color: #DDD;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.rounded-icon{
+    align-items: center;
+    background-color: rgb(68, 209, 68);
+    border-radius: 50%;
+    display: flex;
+    height: 70px;
+    justify-content: center;
+    width: 70px;
+    margin: 10px 0px;
+}
+
+.rounded-icon i{
+    font-size: 2rem;
+}
+
+/* Footer */
+footer{
+    color: #BBB;
+}
+
 /* Responsividade */
 @media (max-width: 1050px){
 
@@ -217,5 +291,10 @@ body{
    
     .text-profile-control h2{
         text-align: center;
+    }
+
+    /* Section Contacts */
+    .container-contact-2{
+        flex-direction: column;
     }
 }
