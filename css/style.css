@@ -5,10 +5,11 @@ body{
     background-color: rgb(10, 10, 10);
 }
 
-/* Show border */
+/* Show border
 .show{
     border: 1px solid red;
 }
+*/
 
 /* Config menu */
 .text-green{
@@ -238,6 +239,12 @@ footer{
 }
 
 @media (max-width: 450px){
+
+    /* Menu */
+    .px-cellphone{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
 
     /* Section 1 */
     .title-ajust{
