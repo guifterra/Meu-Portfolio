@@ -1,40 +1,134 @@
+/* Reset */
 body{
     margin: 0;
     padding: 0;
     background-color: rgb(10, 10, 10);
 }
 
-/*
+/* Show border */
 .show{
     border: 1px solid red;
 }
-*/
 
-.construction{
-    margin: 0 auto;
-    width: 95Vw;
-    height: calc(95Vw / 2);
-    background-image: url("../imgs/UnderConstruction.png");
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-.secao-1{
-
-    height: 90Vh;
-}
-
-.secao-2{
-
-    height: 90Vh;
-}
-
-.bg-img-1{
-    background-image: url("../imgs/Teste.jpg");
-    background-position: center;
-    background-size: cover;
-}
-
+/* Config menu */
 .text-green{
     color: rgb(23, 184, 23);
+}
+
+.btn-right{
+    width: 100%;
+    display: flex;
+    justify-content: right;
+}
+
+.btn-scroll{
+    margin-left: 10px;
+    padding: 3px 9px;
+    transition: 0.5s;
+}
+
+.btn-scroll:hover{
+    background-color: rgb(68, 209, 68);
+    border-radius: 5px;
+    color: #FFF;
+}
+
+/* Config Section 1 */
+.container-sect-1{
+    font-family: Helvetica;
+    text-align: center;
+    padding: 3rem;
+}
+
+.container-sect-1 div h2{
+    color: #DDD;
+    font-size: 5.5rem;
+}
+
+.container-sect-1 div h2 span{
+    background-image: radial-gradient(circle at 100.57% 14.59%, #c9f500 0, #acef00 12.5%, #8de800 25%, #6bde20 37.5%, #43d330 50%, #00c73c 62.5%, #00bc45 75%, #00b34f 87.5%, #00aa58 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.container-sect-1 div p{
+    color: #DDD;
+    margin: 0 auto;
+    width: 60%;
+}
+
+.container-sect-contacts{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.container-sect-1 div div a{
+    background-color: #222;
+    border-radius: 5px;
+    color: #DDD;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 10px 25px;
+}
+
+.container-sect-1 div div a:hover{
+    color: #FFF;
+
+}
+
+/* Responsividade */
+@media (max-width: 1050px){
+
+    /* Section 1*/
+    .container-sect-1 div h2{
+        font-size: 4rem;
+    }
+}
+
+@media (max-width: 800px){
+
+    /* Menu */
+    .btn-scroll{
+        display: flex;
+        justify-content: right;
+    }
+
+    /* Section 1*/
+    .container-sect-1 div h2{
+        font-size: 3rem;
+    }
+
+}
+
+@media (max-width: 450px){
+
+    /* Section 1 */
+    .title-ajust{
+        font-size: 1rem;
+    }
+
+    .btn-text-ajust{
+        font-size: 0.8rem;
+        margin-right: 10px;
+    }
+
+    .container-sect-1{
+        padding: 1rem;
+    }
+
+    .container-sect-1 div h2{
+        font-size: 2rem;
+    }
+
+    .container-sect-1 div p{
+        width: 100%;
+    }
+
+    .container-sect-1 div div a{
+        margin-left: 5px;
+        margin-right: 5px;
+    }
 }
